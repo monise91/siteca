@@ -1,0 +1,258 @@
+
+body{
+    background-color: #ccc;
+
+}
+
+header{
+    background-color:darkgray
+}
+
+/*inicio-contao-logo*/
+.caixa{
+    position: #bbbbbb;
+    padding: 20px;
+}
+
+/*logo*/
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 80px;
+}
+ 
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 60px;
+}
+
+nav{
+    position: absolute;
+    top: 40px;
+    right: 80px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+.menu{
+    text-transform: uppercase;
+    
+}
+
+.ensina{
+    text-align: center;
+    font-size: 50px;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center; 
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1,5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color:black;
+    border-width: 2px;
+    border-style: solid;
+
+}
+
+.produtosimg{
+    width: 250px;
+    height: 250px;
+}
+
+.pro {
+    font-size: 20px;
+}
+
+h4{
+    font-size: 40px;
+}
+
+.sobre{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    /*
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    vertical-align: top;
+    /*width: 31%;
+    margin-right: 15%;
+    font-size: 25px;*/
+}
+
+.sobre li{
+    /*display: inline-block;
+   font-size: 20px;*/
+   display: inline-block;
+   text-align: left; 
+   width: 30%;
+   vertical-align: top;
+   margin: 0 1,5%;
+   padding: 30px 20px;
+}
+    
+.sobre2{
+    font-size: 20px;
+}
+
+/*onde a mente descança*/
+.corpo{
+    font-weight: bold;
+    text-align: center; 
+    font-size: 300%;
+
+}
+
+.ca
+{
+    font-weight: bold;
+}
+
+.imgCa{
+    width: 180%;
+    height: 180%;
+}
+
+.video{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+controls{
+    width: 50%;
+    height: 50%;
+}
+
+.video2{
+    display: inline-block;
+   text-align: left; 
+   width: 30%;
+   vertical-align: top;
+   margin: 0 1,5%;
+   padding: 30px 20px;
+}
+
+/*grade de horarios*/
+.video3{
+    font-weight: bold;
+    text-align: center; 
+    font-size: 40px;
+   /*width: 30%;*/
+   vertical-align: top;
+   /*margin: 0 1,5%;*/
+   padding: 30px 20px;
+
+}
+
+/*texto*/
+.video4{
+    text-align: center; 
+    font-size: 20px;
+    /*width: 30%;*/
+    /*vertical-align: top;*/
+    /*margin: 0 1,5%;*/
+    padding: 30px 20px;
+    color: darkslategray;
+}
+
+
+
+/*agende sua aula experimental*/
+.mapa1{
+    font-weight: bold;
+    text-align: center; 
+    font-size: 80px;
+
+}
+
+/*entre em contado*/
+.mapa2{
+    color: black;
+    text-align: center;
+    
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+/*mapa*/
+.mapa3{
+    display: inline-block;
+
+}
+/*foto*/
+.mapa4{
+    display: inline-block;
+    width: 12%;
+    left: 12%;
+    vertical-align: top;
+    margin: 0 1,5%;
+    padding: 30px 20px;
+    
+}
+
+    
+
+
+footer{
+    text-align: center; 
+    background-color:darkgray;
+    padding: 20px 0;
+}
+
+@media screen and (max-width:480px){
+    .tema, .produtos, .sobre, .corpo, .pro, .produtosimg, .agende, .video,.mapa, .vid, .mapa2, .mapa3, .final, .final, .caixa, .ensina, .video2, .video3, .video4, .video5, .tema{
+width: auto; }}
+
+h1{
+    text-align: center;
+}
+h4{
+    text-align: center;
+
+}
+
+p{
+    text-align: center;
+
+}
+
+li{
+    text-align: center;
+}
+
+ul h4{
+    text-align: center;
+}
+nav{
+    position: static;
+}
